@@ -1,0 +1,89 @@
+html {
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.wrapper > * {
+  padding: 20px;
+}
+.main-page {
+  flex-grow: 1;
+}
+
+.page-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header nav p {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 0.5em;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  font-size: 3.75em;
+  font-weight: 600;
+}
+.tagline {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.content {
+  display: flex;
+  width: 33.33%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: xx-large;
+  margin-bottom: auto;
+}
+
+.info {
+  align-content: center;
+  padding: 0.1rem;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+.social-icons {
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
